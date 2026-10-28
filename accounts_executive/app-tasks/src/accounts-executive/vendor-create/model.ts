@@ -218,7 +218,7 @@ export function newRequest(n: number): VendorRequest {
 
 // ---------- the checks ----------
 
-const REQUIRED: [keyof Typed, string][] = [
+export const REQUIRED: [keyof Typed, string][] = [
   ['legalName', 'legal name'], ['pan', 'PAN'], ['address', 'address'], ['city', 'city'], ['pin', 'PIN'], ['category', 'category'],
   ['creditDays', 'credit days'], ['msme', 'MSME answer'], ['bankAccount', 'bank account'], ['ifsc', 'IFSC'], ['beneficiary', 'beneficiary name'],
 ];
